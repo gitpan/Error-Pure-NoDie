@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 e9f8603e6dede20b37dfb36ce3bcb08880c78816 Changes
+SHA1 e3da4dd8f5e9e03841ed0fe6e7cf4e753d252b9c MANIFEST
+SHA1 57b99555345b04f1daa38437a7c2450a1cf08976 META.yml
+SHA1 0a8cea77726b9e8b915ee972ce18a931e093f362 Makefile.PL
+SHA1 dc10ab210e14cbde84e8f82d640f9bb4602187b3 NoDie.pm
+SHA1 9c007b88589dac6e7afb3923bb56473de9d5a78e README
+SHA1 0868aeccae61658bdc73c09a2607c7b5b495e110 examples/ex1.pl
+SHA1 901f997215cdce734b8024a99ce287f364ea8b94 examples/ex2.pl
+SHA1 f333435ff4dfe823bc718de97b7b1cf99f5f5ac6 examples/ex3.pl
+SHA1 a5e9320d9bb2c2eab6409189dc53bd5d2b7b58ce examples/ex4.pl
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 fc362add81bcc9d13e3ed2911dd5240024db2ab1 t/Error-Pure-NoDie/00-use.t
+SHA1 dc174086814bfe25195fafcc4763f8e271a49ebb t/Error-Pure-NoDie/01-version.t
+SHA1 96ac17859a1bc8d1e0878c854ad9c576e08207d6 t/Error-Pure-NoDie/02-pod_coverage.t
+SHA1 baf72f8854f75938f1d34a455bcf6ba1a7f16de4 t/Error-Pure-NoDie/03-pod.t
+SHA1 1085253066fd4c0b48a939ed421ca5d61406bcc2 t/Error-Pure-NoDie/04-err.t
+SHA1 5f5c7f7ae8f8e46d4d3987b959ce5717f85089d5 t/Error-Pure-NoDie/T.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJRtypAAAoJEAwa+cf4dLBaKPYIAIBoF65o1HUh4M9mpg/YFJ12
+4jzDCsI57F7nCEFB/TDvt/1iBWK3kXLLV1Oe+Byls6oW2jdzCK5tOgHcMBqVfFUE
+PUP4ndBbkz05fSFQFhbAaCVTxKY8Dvw034jHX4T4zhMDVRbahvgp6ykALRhSTvOl
+Vpd9AsitUxIbCIxRUzSXDe5lJV128e26cRjFqDvQQUqQvIZUJ0KRYuNn/QjGpsvh
+5tPJUUj3xv/4ELQu62NvBQE2HejBIiCWMsr8cRirfSfoQ4M2AJz+qDGnDSjbW/Wd
+D9nUWckUeW2fswM4cQUYPUAdzB9cHnCIpQhUKrTvZdwKf6VXEWdAKSfBNKmfbrQ=
+=VUos
+-----END PGP SIGNATURE-----
