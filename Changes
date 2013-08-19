@@ -1,2 +1,8 @@
+0.02 (August 19, 2013)
+- Add Error::Pure::Always to SEE ALSO section in doc.
+- Add LICENSE file.
+- Fix test bug, when test use Test::Output::is_stdout (and Capture::Tiny) for
+  capture err via eval.
+
 0.01 (June 11, 2013)
 - First version.

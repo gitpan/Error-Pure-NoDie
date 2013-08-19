@@ -104,9 +104,9 @@ DEPENDENCIES
     Exporter, List::MoreUtils, Readonly.
 
 SEE ALSO
-    Error::Pure, Error::Pure::AllError, Error::Pure::Die,
-    Error::Pure::Error, Error::Pure::ErrorList, Error::Pure::Output::Text,
-    Error::Pure::Print.
+    Error::Pure, Error::Pure::Always, Error::Pure::AllError,
+    Error::Pure::Die, Error::Pure::Error, Error::Pure::ErrorList,
+    Error::Pure::Output::Text, Error::Pure::Print.
 
 AUTHOR
      Michal Špaček L<skim@cpan.org>
@@ -116,5 +116,5 @@ LICENSE AND COPYRIGHT
     BSD license.
 
 VERSION
-    0.01
+    0.02
 
